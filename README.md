@@ -18,13 +18,13 @@
 
 - **Number and name of feature:** Feature #2: Allow users to vote for their favorite beast
 
-  * Estimate of time needed to complete: 
+  * Estimate of time needed to complete: 1 hour
 
-  * Start time: 
+  * Start time: 6:00
 
-  * Finish time: 
+  * Finish time: 7:00
 
-  * Actual time needed to complete: 
+  * Actual time needed to complete: 1 hour
 
 - **Number and name of feature:** Feature 3: Bootstrap
 
