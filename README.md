@@ -1,3 +1,42 @@
+# Lab: Class 02: Gallery-of-Horns
+
+## Author: Louis Lassegue
+
+## Tools: React, React-Bootstrap, GitHub, Netlify
+
+### Time Estimate
+
+- **Number and name of feature:** Feature #1: Display images
+
+  * Estimate of time needed to complete: 30 mins
+
+  * Start time: 9:00
+
+  * Finish time: 10:55
+
+  * Actual time needed to complete: 1 hour and 55 mins
+
+- **Number and name of feature:** Feature #2: Allow users to vote for their favorite beast
+
+  * Estimate of time needed to complete: 
+
+  * Start time: 
+
+  * Finish time: 
+
+  * Actual time needed to complete: 
+
+- **Number and name of feature:** Feature 3: Bootstrap
+
+  * Estimate of time needed to complete: 
+
+  * Start time: 
+
+  * Finish time: 
+
+  * Actual time needed to complete: 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +107,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
