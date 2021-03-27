@@ -2,9 +2,10 @@ import React from 'react';
 import HornedBeast from './HornedBeast.js';
 import CardColumns from 'react-bootstrap/CardColumns';
 import data from './data.json';
+
 import './Main.css';
 
-class main extends React.Component {
+class Main extends React.Component {
   render() {
     let hornedBeastArray = data.map(animal => {
       return <HornedBeast
@@ -26,5 +27,5 @@ class main extends React.Component {
   }
 }
 
-export default main;
+export default Main;
 
