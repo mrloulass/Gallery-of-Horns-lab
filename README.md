@@ -28,13 +28,13 @@
 
 - **Number and name of feature:** Feature 3: Bootstrap
 
-  * Estimate of time needed to complete: 
+  * Estimate of time needed to complete: 1 hour and half
 
-  * Start time: 
+  * Start time: 8:00
 
-  * Finish time: 
+  * Finish time: 10:00
 
-  * Actual time needed to complete: 
+  * Actual time needed to complete: 2 hours
 
 
 # Getting Started with Create React App
