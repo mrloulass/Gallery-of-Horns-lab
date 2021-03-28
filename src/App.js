@@ -8,7 +8,7 @@ import Footer from './Footer';
 class App extends React.Component {
   render() {
     return (
-      <div nameClass="page">
+      <div >
         <Header />
         <Main />
         <Footer />
