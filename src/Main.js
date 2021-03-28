@@ -7,13 +7,14 @@ import './Main.css';
 
 class Main extends React.Component {
   render() {
-    let hornedBeastArray = data.map(animal => {
+    let hornedBeastArray = data.map((animal, indexKeys) => {
       return <HornedBeast
         title = {animal.title}
         image_url = {animal.image_url}
         name = {animal.keyword}
         description = {animal.description}
         horns = {animal.horns}
+        key = {indexKeys}
       />
     })
 

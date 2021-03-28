@@ -1,4 +1,22 @@
-# Lab: Class 02: Gallery-of-Horns
+# Lab: Class 03: Gallery-of-Horns (Passing Functions in Props)
+
+## Author: Louis Lassegue
+
+## Tools: React, React-Bootstrap, GitHub, Netlify
+
+### Time Estimate
+
+- **Number and name of feature:** Feature #1: Display a Modal
+
+  * Estimate of time needed to complete: 3 hours
+
+  * Start time: 1:00
+
+  * Finish time: 
+
+  * Actual time needed to complete: 
+
+# Lab: Class 02: Gallery-of-Horns (React State and Props)
 
 ## Author: Louis Lassegue
 
