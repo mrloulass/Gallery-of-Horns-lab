@@ -6,6 +6,7 @@ import data from './data.json';
 import './Main.css';
 
 class Main extends React.Component {
+  
   render() {
     let hornedBeastArray = data.map((animal, indexKeys) => {
       return <HornedBeast
