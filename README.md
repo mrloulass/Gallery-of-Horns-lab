@@ -1,3 +1,21 @@
+# Lab: Class 04: Gallery-of-Horns (Forms and Filter)
+
+## Author: Louis Lassegue
+
+## Tools: React, React-Bootstrap, GitHub, Netlify
+
+### Time Estimate
+
+- **Number and name of feature:** Feature #1: Filter by Numbers of Horns
+
+  * Estimate of time needed to complete: 3 hours
+
+  * Start time: 7:00
+
+  * Finish time: 
+
+  * Actual time needed to complete: 
+
 # Lab: Class 03: Gallery-of-Horns (Passing Functions in Props)
 
 ## Author: Louis Lassegue
@@ -10,11 +28,11 @@
 
   * Estimate of time needed to complete: 3 hours
 
-  * Start time: 1:00
+  * Start time: 1:00 
 
-  * Finish time: 
+  * Finish time: 6:00
 
-  * Actual time needed to complete: 
+  * Actual time needed to complete: 2 days
 
 # Lab: Class 02: Gallery-of-Horns (React State and Props)
 
