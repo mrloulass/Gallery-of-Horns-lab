@@ -7,7 +7,7 @@ class FormHorns extends React.Component {
     super(props);
 
     this.state = {
-      selectHorns:'Horns'
+      selectHorns:'horns'
     };
   }
 
@@ -22,13 +22,14 @@ class FormHorns extends React.Component {
   }
 
   render() {
-   
+   let filterNewArray = this.props.animals.filter(animal => animal.horns === 1)
+   console.log(filterNewArray);
 
     return (
       <Form>
         <Form.Group controlId="Choose_Horns">
           <Form.Label>Choose Number of Horns</Form.Label>
-          <Form.Control as="select" custom>
+          <Form.Control as="select" onChange={this.handleHornsSelected} custom size='sm'>
             <option>1 horn</option>
             <option>2 horns</option>
             <option>3 horns</option>
