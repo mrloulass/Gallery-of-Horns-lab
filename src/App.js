@@ -5,6 +5,8 @@ import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer';
 import SelectedBeast from './SelectedBeast.js';
+import FormHorns from './FormHorns.js';
+
 import data from './data.json';
 
 class App extends React.Component {
@@ -32,6 +34,9 @@ class App extends React.Component {
     return (
       <div >
         <Header />
+        <FormHorns
+        animals={data}
+        />
 
         <SelectedBeast
         show={this.state.show}
