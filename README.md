@@ -12,9 +12,9 @@
 
   * Start time: 7:00
 
-  * Finish time: 
+  * Finish time: 9:00 
 
-  * Actual time needed to complete: 
+  * Actual time needed to complete: 2 days
 
 # Lab: Class 03: Gallery-of-Horns (Passing Functions in Props)
 

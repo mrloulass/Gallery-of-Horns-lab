@@ -10,43 +10,51 @@ import FormHorns from './FormHorns.js';
 import data from './data.json';
 
 class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       show: false,
-      animalImage: {}
+      animalImage: {},
+      hornedBeastRender: data,
     }
   }
-  
+
   showImageInModal = clickedImage => {
-    this.setState ({
+    this.setState({
       show: true,
       animalImage: clickedImage,
     })
   }
+
   hideImageInModal = () => {
     this.setState({
       show: false,
       animalImage: {},
     })
   }
+
+  findFilteredHornBeasts = filteredHornBeasts => {
+    this.setState({hornedBeastRender: filteredHornBeasts});
+  }
+
   render() {
     return (
       <div >
         <Header />
         <FormHorns
-        animals={data}
+          animals={data}
+          findFilteredHornBeasts={this.findFilteredHornBeasts}
         />
 
         <SelectedBeast
-        show={this.state.show}
-        hideImage={this.hideImageInModal}
-        animalImage={this.state.animalImage}
+          show={this.state.show}
+          hideImage={this.hideImageInModal}
+          animalImage={this.state.animalImage}
         />
 
         <Main
-        animals={data}
-        handleClick={this.showImageInModal}
+          animals={this.state.hornedBeastRender}
+          handleClick={this.showImageInModal}
         />
 
         <Footer />
